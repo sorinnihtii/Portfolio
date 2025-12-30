@@ -1,5 +1,8 @@
 @import "tailwindcss";
 
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
 @theme {
   --color-one: #061e29;
   --color-two: #1d546d;
@@ -8,4 +11,6 @@
   --color-gray25: #b3b3b325;
   --color-gray50: #b3b3b350;
   --color-gray50: #b3b3b375;
+  --font-ibm: "IBM Plex Mono", monospace;
+  --font-montserrat: "Montserrat", sans-serif;
 }
